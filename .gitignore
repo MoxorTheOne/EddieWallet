@@ -23,3 +23,10 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+# Firebase configuration files cannot be included since contains api keys
+eddie_wallet/android/app/google-services.json
+eddie_wallet/ios/firebase_app_id_file.json
+eddie_wallet/ios/Runner/GoogleService-Info.plist
+eddie_wallet/lib/firebase_options.dart
+eddie_wallet/macos/firebase_app_id_file.json
+eddie_wallet/macos/Runner/GoogleService-Info.plist
